@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INACAPLudi - Club de Juegos de Mesa y Rol</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>INACAPLudi</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#activities">Actividades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>"INACAPLudi" es el club oficial de juegos de mesa y de rol de INACAP...</p>
+        </section>
+        <section id="activities">
+            <h2>Actividades</h2>
+            <ul>
+                <li>Espacios en cada una de las sedes para realizar partidas...</li>
+                <li>Ludoteca, lugar donde hemos podido reunir diferentes juegos y libros...</li>
+                <!-- Aquí van las demás actividades -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>¡Únete a nuestro club! Completa el formulario y te contactaremos pronto.</p>
+            <form action="procesar_formulario.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 INACAPLudi - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
